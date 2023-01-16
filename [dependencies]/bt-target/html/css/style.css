@@ -1,0 +1,53 @@
+.target-wrapper {
+    display: none;
+}
+
+.target-eye {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 80px;
+}
+
+.target-label-wrapper {
+    position: absolute;
+    right: 81.2vh;
+    top: 52vh;
+    margin-top: -13px;
+    width: 15vh;
+}
+
+.target-label {
+    list-style: none;
+    font-size: 1.6vh;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    color: white;
+    text-transform: uppercase;
+    user-select: none;
+}
+
+.target-item{
+    width: auto;
+    height: 10%;
+    background: #222831;
+    margin: auto;
+    position: relative;
+    top: 10%;
+    margin-top: 1.0rem;
+    overflow: hidden;
+    padding: 0.45rem;   
+    border-radius: 0.3rem;
+    display: flex;
+    box-shadow: 0.0rem 0.0rem 0.1rem 0.05rem #000000;
+
+    color: rgb(232, 229, 229);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    overflow: hidden;
+    font-weight: 300;
+}
+
+.target-item:hover {
+    background-color: #30475e;
+}
